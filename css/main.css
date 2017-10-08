@@ -1,0 +1,174 @@
+body {
+  background-color: #C8CDD7;
+  font-family: 'Pridi', serif;
+  color: #fff;
+  font-weight: 200;
+}
+
+.text-card {
+  border-top: solid 2px;
+  border-bottom: solid 2px;
+  border-color: rgba(235, 90, 95, 1);
+  color: #fff;
+}
+
+.rule {
+  border-top: solid 2px;
+  border-color: rgba(235, 90, 95, 1);
+}
+
+.case-study h1 {
+  color: rgba(235, 90, 95, 1);
+}
+
+.case-study {
+  background-color: #26374C;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  color: #C8CDD7;
+}
+
+figure a {
+  background-color: rgba(235, 90, 95, 0);
+  height: 100%;
+  overflow: hidden;
+  color: #fff;
+  font-size: 1.067rem;
+  line-height: 1.625rem;
+  font-weight: 500;
+}
+
+figure a:hover {
+    background-color: rgba(235, 90, 95, 0.5);
+    font-size: 1.383rem;
+    line-height: 1.95rem;
+    transition: all 300ms;
+}
+
+.description {
+  padding-left: 0;
+}
+
+.profile-img {
+  max-width: 50%;
+  margin-right: 1rem;
+}
+
+.grid-img {
+  max-width: 10em;
+}
+
+.about {
+  background-color: #26374C;
+  padding-top: 10em;
+  padding-bottom: 10em;
+  color: #C8CDD7;
+}
+
+.top-link {
+  color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  padding: .5rem;
+  border-color: #fff;
+}
+
+.top-link:hover {
+  color: #26374C;
+  border-color: #26374C;
+  transition: all 500ms;
+}
+
+header {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul {
+  text-align: center;
+}
+
+header a {
+  color: #26374C;
+}
+
+header a:hover {
+  color: #fff;
+  transition: all 300ms;
+}
+
+.logo {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.link-card {
+  border-width: 2px;
+  border-color: #fff;
+  border-style: none;
+  text-align: center;
+  display: inline-block;
+  width: 80%;
+  background-color: rgba(235, 90, 95, 0.5);
+  color: #fff;
+  font-weight: 300;
+}
+
+.link-card:hover {
+  background-color: rgba(235, 90, 95, 1);
+  border-color: rgba(235, 90, 95, 1);
+  transition: all 500ms;
+
+}
+
+.card-wrap {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.social-link {
+  text-align: left;
+}
+
+@media only screen and (min-width: 25em) {
+
+
+  .unit {
+    padding: 0;
+  }
+
+  nav ul {
+    text-align: right;
+  }
+
+  section {
+    background-image: url("../images/placeholder-4by3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    text-align: center;
+  }
+
+  .card-wrap {
+    padding-top: 0;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .social-link {
+    text-align: right;
+  }
+
+
+  .description {
+    padding-left: 1em;
+  }
+
+}

@@ -5,29 +5,6 @@ body {
   font-weight: 200;
 }
 
-.text-card {
-  border-top: solid 2px;
-  border-bottom: solid 2px;
-  border-color: rgba(235, 90, 95, 1);
-  color: #fff;
-}
-
-.rule {
-  border-top: solid 2px;
-  border-color: rgba(235, 90, 95, 1);
-}
-
-.case-study h1 {
-  color: rgba(235, 90, 95, 1);
-}
-
-.case-study {
-  background-color: #26374C;
-  padding-top: 3em;
-  padding-bottom: 3em;
-  color: #C8CDD7;
-}
-
 figure a {
   background-color: rgba(235, 90, 95, 0);
   height: 100%;
@@ -134,8 +111,47 @@ header a:hover {
   text-align: left;
 }
 
+.intro {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.text-card {
+  border-top: solid 2px;
+  border-bottom: solid 2px;
+  border-color: rgba(235, 90, 95, 1);
+  color: #fff;
+}
+
+.rule {
+  border-top: solid 2px;
+  border-color: rgba(235, 90, 95, 1);
+}
+
+.case-study h1 {
+  color: rgba(235, 90, 95, 1);
+}
+
+.case-study {
+  background-color: #26374C;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  color: #C8CDD7;
+}
+
+
 @media only screen and (min-width: 25em) {
 
+  .intro {
+    background-image: url("../images/placeholder-4by3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    text-align: center;
+    background-position: center center;
+    background-attachment: fixed;
+  }
 
   .unit {
     padding: 0;
@@ -145,14 +161,6 @@ header a:hover {
     text-align: right;
   }
 
-  section {
-    background-image: url("../images/placeholder-4by3.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 15em;
-    padding-bottom: 15em;
-    text-align: center;
-  }
 
   .card-wrap {
     padding-top: 0;
@@ -162,10 +170,14 @@ header a:hover {
 
 @media only screen and (min-width: 38em) {
 
+  .intro {
+    padding-top: 25%;
+    padding-bottom: 25%;
+  }
+
   .social-link {
     text-align: right;
   }
-
 
   .description {
     padding-left: 1em;

@@ -1,5 +1,5 @@
 body {
-  background-color: #C8CDD7;
+  background-color: #004260;
   font-family: 'Pridi', serif;
   color: #fff;
   font-weight: 200;
@@ -12,14 +12,16 @@ figure a {
   color: #fff;
   font-size: 1.067rem;
   line-height: 1.625rem;
-  font-weight: 500;
+  font-weight: 400;
+  border: 6px solid;
+  border-color: #004260;
 }
 
 figure a:hover {
-    background-color: rgba(235, 90, 95, 0.5);
+    background-color: rgba(255, 199, 139, 0.5);
     font-size: 1.383rem;
     line-height: 1.95rem;
-    transition: all 300ms;
+    transition: all 200ms;
 }
 
 .description {
@@ -36,11 +38,12 @@ figure a:hover {
 }
 
 .about {
-  background-color: #26374C;
+  background-color: #fff;
   padding-top: 10em;
   padding-bottom: 10em;
-  color: #C8CDD7;
+  color: #004260;
 }
+
 
 .top-link {
   color: #fff;
@@ -51,8 +54,8 @@ figure a:hover {
 }
 
 .top-link:hover {
-  color: #26374C;
-  border-color: #26374C;
+  color: #ffc78b;
+  border-color: #ffc78b;
   transition: all 500ms;
 }
 
@@ -69,11 +72,11 @@ nav ul {
 }
 
 header a {
-  color: #26374C;
+  color: #fff;
 }
 
 header a:hover {
-  color: #fff;
+  color: #ffc78b;
   transition: all 300ms;
 }
 
@@ -83,21 +86,48 @@ header a:hover {
   display: block;
 }
 
-.link-card {
-  border-width: 2px;
-  border-color: #fff;
-  border-style: none;
-  text-align: center;
-  display: inline-block;
-  width: 80%;
-  background-color: rgba(235, 90, 95, 0.5);
-  color: #fff;
-  font-weight: 300;
+
+.bubble-bottom {
+  width: 90%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
 }
 
-.link-card:hover {
-  background-color: rgba(235, 90, 95, 1);
-  border-color: rgba(235, 90, 95, 1);
+.bubble-bottom a {
+  top: 40%;
+  left: 40%;
+  transform: translate(-60%, -60%);
+  text-align: center;
+  font-size: 3em;
+  color: #fff;
+  font-weight: 500;
+}
+
+.bubble-top {
+  width: 90%;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.bubble-top a {
+  top: 20%;
+  left: 65%;
+  transform: translate(-80%, -35%);
+  text-align: center;
+  font-size: 3em;
+  color: #fff;
+  font-weight: 500;
+}
+
+.bubble-top a:hover {
+  color: #004260;
+  transition: all 500ms;
+}
+
+.bubble-bottom a:hover {
+  color: #26374C;
   transition: all 500ms;
 }
 
@@ -113,29 +143,36 @@ header a:hover {
 .intro {
   padding-top: 10%;
   padding-bottom: 10%;
+  height: 30em;
+  overflow: hidden;
 }
 
 .text-card {
   border-top: solid 2px;
   border-bottom: solid 2px;
-  border-color: rgba(235, 90, 95, 1);
-  color: #fff;
+  border-color: #ffc78b;
+  color: #004260;
+}
+
+.img-grid {
+  padding-top: 4em;
 }
 
 .rule {
   border-top: solid 2px;
-  border-color: rgba(235, 90, 95, 1);
+  border-color: #ffc78b;
 }
 
 .case-study h1 {
-  color: rgba(235, 90, 95, 1);
+  color: #ffc78b;
+  font-weight: 500;
 }
 
 .case-study {
-  background-color: #26374C;
+  background-color: #fff;
   padding-top: 3em;
   padding-bottom: 3em;
-  color: #C8CDD7;
+  color: #004260;
 }
 
 
@@ -145,8 +182,8 @@ header a:hover {
     background-image: url("../images/placeholder-4by3.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 40%;
-    padding-bottom: 40%;
+    padding-top:;
+    padding-bottom:;
     text-align: center;
     background-position: center center;
     background-attachment: fixed;
@@ -164,13 +201,28 @@ header a:hover {
     padding-top: 0;
   }
 
+  .bubble-bottom {
+    width: 18em;
+    top: 40%;
+    left: 10em;
+
+  }
+
+  .bubble-top {
+    width: 18em;
+    top: 10%;
+    left: 10em;
+
+  }
+
 }
+
 
 @media only screen and (min-width: 38em) {
 
   .intro {
-    padding-top: 25%;
-    padding-bottom: 25%;
+    padding-top: ;
+    padding-bottom: ;
   }
 
   .social-link {
@@ -179,6 +231,18 @@ header a:hover {
 
   .description {
     padding-left: 1em;
+  }
+
+  .bubble-bottom {
+    width: 22em;
+    top: 45%;
+    left: 30%;
+  }
+
+  .bubble-top {
+    width: 22em;
+    top: 10%;
+    left: 40%;
   }
 
 }

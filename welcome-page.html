@@ -5,17 +5,25 @@ title: Portfolio Welcome Page
 
 <meta name="description" content="Thanks for visiting! View my portfolio, or learn a bit more about me.">
 
-  <main class="intro">
-    <div class="grid grid-middle max-length">
-      <div class="unit xs-1 s-1-2 card-wrap text-center padding-top">
-        <a class="link-card island-2 yotta" href="{{site.baseurl}}/chris-hough-designs">
-          <span>Designs</span>
-        </a>
+  <main class="relative intro">
+    <div class="max-length">
+      <div class="absolute bubble-top card-wrap text-center padding-top">
+        <div>
+          <img class="relative" src="{{site.baseurl}}/images/bubble-top.svg" alt="bubble">
+          <div>
+            <a class="absolute island-2" href="{{site.baseurl}}/chris-hough-designs">
+              <span>Designs</span>
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="unit xs-1 s-1-2 card-wrap">
-        <a class="link-card island-2 yotta" href="{{site.baseurl}}/about">
-          <span>About</span>
-        </a>
+      <div class="absolute bubble-bottom absolute card-wrap text-center padding-top">
+        <img class="relative" src="{{site.baseurl}}/images/bubble-bottom.svg" alt="bubble">
+        <div>
+          <a class="absolute island-2" href="{{site.baseurl}}/about">
+            <span>About</span>
+          </a>
+        </div>
       </div>
     </div>
   </main>

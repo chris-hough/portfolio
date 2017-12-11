@@ -11,15 +11,18 @@
   <link href="https://fonts.googleapis.com/css?family=Pridi:200,300,400,500,600,700" rel="stylesheet">
 </head>
 <body>
-  <header id="top" class="grid island grid-middle">
-    <div class="unit xs-1 s-1-4 m-1-4 l-1-4 gutter-quarter pad-b">
+  <header id="top" class="grid island-half grid-middle">
+    <div class="halftone absolute">
+      <img class="relative" src="{{site.baseurl}}/images/dot-fade.svg" alt="">
+    </div>
+    <div class="unit xs-1 s-1-4 m-1-4 l-1-4 gutter-quarter">
       <a href="{{site.baseurl}}/welcome-page">
         <img class="logo" src="{{site.baseurl}}/images/placeholder-4by1.svg" alt="logo">
       </a>
     </div>
     <nav class="unit xs-1 s-3-4 m-3-4 l-3-4 island-quarter">
       <ul class="list-group-inline push-0 peta">
-        <li class="gutter"><a href="{{site.baseurl}}/chris-hough-designs">Designs</a></li>
+        <li class=""><a href="{{site.baseurl}}/chris-hough-designs">Designs</a></li>
         <li class="gutter"><a href="{{site.baseurl}}/about">About</a></li>
       </ul>
     </nav>
@@ -29,7 +32,7 @@
 {{content}}
 
   <footer>
-    <div class="grid island grid-middle">
+    <div class="grid island-half grid-middle">
       <small class="unit xs-1-2 m-1-2 push"> © 2017 Chris Hough.<br>contact@chris-hough.ca</small>
       <div class="top-btn unit xs-1-2 m-1-4 island-1-4 text-right">
         <a href="#top" class="top-link">page top</a>

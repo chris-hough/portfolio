@@ -9,6 +9,32 @@ body {
   font-weight: 200;
 }
 
+.error-img {
+  background-color: #DE3554;
+}
+
+.error-msg span {
+  margin-bottom: 1.5rem;
+  color: #DE3554;
+}
+.error-msg {
+  background-color: #fff;
+}
+
+.home-btn {
+  background-color: #DE3554;
+  color: #fff;
+  text-align: center;
+  display: inline;
+  font-weight: 300;
+  padding: .25rem 1.5rem;
+}
+
+.home-btn:hover {
+  background-color: rgba(242, 108, 87, 1);
+  transition: all 300ms;
+}
+
 figure a {
   background-color: rgba(255, 255, 255, 0.0);
   height: 100%;
@@ -72,6 +98,10 @@ a {
   border-color: #555;
 }
 
+strong {
+  font-weight: 300;
+}
+
 .top-link:hover {
   color: rgba(242, 108, 87, 1);
   border-color: rgba(242, 108, 87, 1);
@@ -131,7 +161,7 @@ header a:hover {
   padding-right: 0;
 }
 
-.card-wrap {
+.welcome-btn {
   text-align: center;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -141,18 +171,18 @@ header a:hover {
   display: block;
 }
 
-.card-wrap div {
-  background-color: rgba(242, 108, 87, 0.7);
+.welcome-btn div {
+  background-color: #DE3554;
   padding: 1em;
 }
 
-.card-wrap span {
+.welcome-btn span {
   line-height: 100%;
   font-weight: 300;
 }
 
-.card-wrap div:hover {
-  background-color: rgba(242, 108, 87, 1);
+.welcome-btn div:hover {
+  background-color: rgb(242, 108, 87);
   transition: all 300ms;
 }
 
@@ -242,6 +272,9 @@ header a:hover {
     padding-bottom: 10em;
   }
 
+    .error-msg span {
+      margin-bottom: 0;
+    }
 }
 
 @media only screen and (min-width: 60em) {

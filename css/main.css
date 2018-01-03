@@ -41,7 +41,6 @@ a {
 
 .profile-img {
   max-width: 50%;
-  margin-right: 1rem;
 }
 
 .grid-img {
@@ -50,9 +49,19 @@ a {
 
 .about {
 
-  padding-top: 10em;
-  padding-bottom: 10em;
+  padding-top: 5em;
+  padding-bottom: 5em;
   color: #555;
+}
+
+.about h1 {
+  color: rgba(242, 108, 87, 1);
+  font-weight: 300;
+}
+
+.about span {
+  color: rgba(242, 108, 87, 1);
+  font-weight: 300;
 }
 
 .top-link {
@@ -226,6 +235,11 @@ header a:hover {
   .text-card p {
     padding-left: .75rem;
     padding-right: .75rem;
+  }
+
+  .about {
+    padding-top: 10em;
+    padding-bottom: 10em;
   }
 
 }

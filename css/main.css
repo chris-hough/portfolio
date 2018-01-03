@@ -74,7 +74,6 @@ a {
 }
 
 .about {
-
   padding-top: 5em;
   padding-bottom: 5em;
   color: #555;
@@ -204,7 +203,6 @@ header a:hover {
   color: #555;
   background-color: #f6f6f6;
   background-image: none;
-
 }
 
 .embed-2by1 {
@@ -246,9 +244,7 @@ header a:hover {
 
 }
 
-
 @media only screen and (min-width: 38em) {
-
 
   .social-link {
     text-align: right;
@@ -272,9 +268,9 @@ header a:hover {
     padding-bottom: 10em;
   }
 
-    .error-msg span {
-      margin-bottom: 0;
-    }
+  .error-msg span {
+    margin-bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -287,11 +283,5 @@ header a:hover {
   .logo-block {
     display: block;
   }
-
-}
-
-@media only screen and (min-width: 90em) {
-
-
 
 }

@@ -1,7 +1,11 @@
+html {
+  background-color: #fff;
+}
+
 body {
-  background-color: #eee;
+  background-color: #f6f6f6;
   font-family: 'Pridi', serif;
-  color: #333;
+  color: #555;
   font-weight: 200;
 }
 
@@ -11,37 +15,28 @@ figure a {
   overflow: hidden;
 }
 
-
-figure {
-  overflow: hidden;
-}
-
 figure span {
   background-position: -1em 0;
-  width: 110%;
+  background-image: linear-gradient(to bottom, rgba(242, 108, 87, 1) 20%, rgba(242, 108, 87, 0.5));
+  width: 100%;
   height: 100%;
-  background-image:url("../images/dot-fade-hover.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
   opacity: 0;
 }
 
+figure span:hover {
+    transition: all 300ms;
+    opacity: 1;
+}
+
 a span {
-  font-size: 1.067rem;
-  line-height: 1.625rem;
-  font-weight: 400;
-  color: rgba(222, 107, 58, 1);
+  line-height: 100%;
+  font-weight: 300;
+  color: #fff;
   top: 0;
 }
 
-figure span:hover {
-    transition: all 200ms;
-    opacity: 1;
-
-}
-
-.description {
-  padding-left: 0;
+a {
+  text-decoration: none;
 }
 
 .profile-img {
@@ -57,20 +52,20 @@ figure span:hover {
 
   padding-top: 10em;
   padding-bottom: 10em;
-  color: #333;
+  color: #555;
 }
 
 .top-link {
-  color: #333;
+  color: #555;
   border-style: solid;
   border-width: 2px;
   padding: .5rem;
-  border-color: #333;
+  border-color: #555;
 }
 
 .top-link:hover {
-  color: rgba(222, 107, 58, 1);
-  border-color: rgba(222, 107, 58, 1);
+  color: rgba(242, 108, 87, 1);
+  border-color: rgba(242, 108, 87, 1);
   background-color: #fff;
   transition: all 500ms;
 }
@@ -83,95 +78,28 @@ header {
   align-items: center;
   overflow-x: hidden;
   margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-header .halftone {
-  top: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  z-index: -10;
-}
-
-header .halftone img {
-  margin-left: 0;
-  margin-right: 0;
-  overflow: hidden;
-  position: relative;
-  width: 110%;
+  background-color: #fff;
 }
 
 nav ul {
   text-align: center;
+  padding-bottom: 1em;
 }
 
 header a {
-  color: #333;
+  color: #555;
 }
 
 header a:hover {
-  color: rgba(222, 107, 58, 1);
+  color: rgba(242, 108, 87, 1);
   transition: all 300ms;
 }
 
 .logo {
-  width: 100%;
+  width: 60%;
   margin: auto;
   display: block;
-}
-
-
-.bubble-bottom {
-  width: 90%;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-.bubble-bottom a {
-  top: 40%;
-  left: 40%;
-  transform: translate(-60%, -60%);
-  text-align: center;
-  font-size: 3em;
-  color: #fff;
-  font-weight: 500;
-}
-
-.bubble-top {
-  width: 90%;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-.bubble-top a {
-  top: 20%;
-  left: 65%;
-  transform: translate(-80%, -35%);
-  text-align: center;
-  font-size: 3em;
-  color: #fff;
-  font-weight: 500;
-}
-
-.bubble-top a:hover {
-  color: #333;
-  transition: all 500ms;
-}
-
-.bubble-bottom a:hover {
-  color: #26374C;
-  transition: all 500ms;
-}
-
-.card-wrap {
-  text-align: center;
+  padding-bottom: 1em;
   padding-top: 1em;
 }
 
@@ -180,17 +108,43 @@ header a:hover {
 }
 
 .intro {
-  padding-top: 10%;
-  padding-bottom: 10%;
-  height: 30em;
-  overflow: hidden;
+  padding-top: 30%;
+  padding-bottom: 30%;
 }
 
 .text-card {
-  border-top: solid 2px;
-  border-bottom: solid 2px;
-  border-color: rgba(222, 107, 58, 1);
-  color: #333;
+  border-top: 2px solid rgb(242, 108, 87);
+  border-bottom: 2px solid rgb(242, 108, 87);
+}
+
+.text-card p {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.card-wrap {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 24em;
+  display: block;
+}
+
+.card-wrap div {
+  background-color: rgba(242, 108, 87, 0.7);
+  padding: 1em;
+}
+
+.card-wrap span {
+  line-height: 100%;
+  font-weight: 300;
+}
+
+.card-wrap div:hover {
+  background-color: rgba(242, 108, 87, 1);
+  transition: all 300ms;
 }
 
 .img-grid {
@@ -199,32 +153,43 @@ header a:hover {
 
 .rule {
   border-top: solid 2px;
-  border-color: rgba(222, 107, 58, 1);
+  border-color: rgba(242, 108, 87, 1);
 }
 
 .case-study h1 {
-  color: rgba(222, 107, 58, 1);
+  color: rgba(242, 108, 87, 1);
   font-weight: 500;
 }
 
 .case-study {
-  padding-top: 3em;
-  padding-bottom: 3em;
-  color: #333;
+  color: #555;
+  background-color: #f6f6f6;
+  background-image: none;
+
+}
+
+.embed-2by1 {
+  padding-top: 50%;
+}
+
+.logo-block {
+  display: none;
 }
 
 
 @media only screen and (min-width: 25em) {
 
-  .intro {
-    background-image: url("../images/placeholder-4by3.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top:;
-    padding-bottom:;
-    text-align: center;
-    background-position: center center;
+  main {
+    background-image: url("../images/lines-v1.svg");
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: top;
     background-attachment: fixed;
+  }
+
+  .logo {
+    margin-left: 1.66em;
+    margin-right: 0;
   }
 
   .unit {
@@ -233,27 +198,11 @@ header a:hover {
 
   nav ul {
     text-align: right;
+    padding-bottom: 0;
   }
 
-  .card-wrap {
-    padding-top: 0;
-  }
-
-  .bubble-bottom {
-    width: 18em;
-    top: 40%;
-    left: 10em;
-
-  }
-
-  .bubble-top {
-    width: 18em;
-    top: 10%;
-    left: 10em;
-
-  }
-  header .halftone {
-    top: 0;
+  nav li {
+    padding-right: 1em;
   }
 
 }
@@ -261,10 +210,6 @@ header a:hover {
 
 @media only screen and (min-width: 38em) {
 
-  .intro {
-    padding-top: ;
-    padding-bottom: ;
-  }
 
   .social-link {
     text-align: right;
@@ -274,40 +219,32 @@ header a:hover {
     padding-left: 1em;
   }
 
-  .bubble-bottom {
-    width: 22em;
-    top: 45%;
-    left: 30%;
-  }
-
-  .bubble-top {
-    width: 22em;
-    top: 10%;
-    left: 40%;
-  }
-
-  header .halftone {
-    top: -2em;
-  }
-
   .top-link {
     display: none;
+  }
+
+  .text-card p {
+    padding-left: .75rem;
+    padding-right: .75rem;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-  header .halftone {
-    top: -3em;
+  .intro {
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+
+  .logo-block {
+    display: block;
   }
 
 }
 
 @media only screen and (min-width: 90em) {
 
-  header .halftone {
-    top: -5em;
-  }
+
 
 }

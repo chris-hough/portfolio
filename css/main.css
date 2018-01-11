@@ -21,12 +21,12 @@ a:focus {
 .skip-links a {
   position: absolute;
   top: -3em;
-  visibility: hidden;
+  display: none;
 }
 
 .skip-links a:focus {
   top: 0;
-  visibility: visible;
+  display: block;
 }
 
 .error-img {

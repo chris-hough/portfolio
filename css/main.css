@@ -23,6 +23,7 @@ a:hover {
 .skip-links li{
   position: absolute;
   top: -5em;
+  padding: 0;
 }
 
 .skip-links li:focus {

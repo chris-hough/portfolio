@@ -29,7 +29,7 @@ a:hover {
   top: 0;
 }
 
-.skip-links a:focus {
+.skip-links li:focus {
   top: 0;
 }
 

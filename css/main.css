@@ -20,12 +20,12 @@ a:hover {
   outline: none;
 }
 
-.skip-links {
+.skip-links li{
   position: absolute;
   top: -3em;
 }
 
-.skip-links:focus {
+.skip-links li:focus {
   top: 0;
 }
 

@@ -22,16 +22,13 @@ a:hover {
 
 .skip-links li{
   position: absolute;
-  top: -3em;
+  top: -5em;
 }
 
 .skip-links li:focus {
   top: 0;
 }
 
-.skip-links li:focus {
-  top: 0;
-}
 
 .error-img {
   background-color: #DE3554;

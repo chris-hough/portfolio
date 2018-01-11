@@ -16,6 +16,9 @@ body {
 a:focus {
   outline: 3px solid rgb(242, 108, 87);
 }
+a:hover {
+  outline: none;
+}
 
 .skip-links {
   position: absolute;
@@ -23,6 +26,10 @@ a:focus {
 }
 
 .skip-links:focus {
+  top: 0;
+}
+
+.skip-links a:focus {
   top: 0;
 }
 

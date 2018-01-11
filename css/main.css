@@ -16,6 +16,7 @@ body {
 a:focus {
   outline: 3px solid rgb(242, 108, 87);
 }
+
 a:hover {
   outline: none;
 }
@@ -242,7 +243,6 @@ header a:hover {
   display: none;
 }
 
-
 @media only screen and (min-width: 25em) {
 
   main {
@@ -300,6 +300,7 @@ header a:hover {
   .error-msg span {
     margin-bottom: 0;
   }
+  
 }
 
 @media only screen and (min-width: 60em) {

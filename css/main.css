@@ -2,6 +2,10 @@ html {
   background-color: #fff;
 }
 
+aside {
+  display: none;
+}
+
 body {
   background-color: #f6f6f6;
   font-family: 'Pridi', serif;

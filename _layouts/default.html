@@ -9,7 +9,7 @@
   <link rel="shortcut icon" type="image/png" href="{{site.url}}/favicon.png">
 </head>
 <body>
-  <header id="top" class="grid grid-middle">
+  <header role="banner" id="top" class="grid grid-middle">
     <div class="halftone absolute hidden">
       <img class="relative" src="{{site.baseurl}}/images/dot-fade.svg" alt="">
     </div>
@@ -18,10 +18,10 @@
         <img class="logo" src="{{site.baseurl}}/images/logo.svg" alt="logo">
       </a>
     </div>
-    <nav class="unit xs-1 s-3-4 m-3-4 l-3-4 island-quarter">
+    <nav class="unit xs-1 s-3-4 m-3-4 l-3-4 island-quarter" role="navigation" id="nav">
       <ul class="list-group-inline push-0 peta">
-        <li><a itemprop="url" href="{{site.baseurl}}/chris-hough-designs">designs</a></li>
-        <li><a itemprop="url" href="{{site.baseurl}}/about">about</a></li>
+        <li><a itemprop="url" href="{{site.baseurl}}/chris-hough-designs" aria-label="view list of designs">designs</a></li>
+        <li><a itemprop="url" href="{{site.baseurl}}/about" aria-label="read about the designer">about</a></li>
       </ul>
     </nav>
     </div>
@@ -29,7 +29,7 @@
 
 {{content}}
 
-  <footer itemscope itemtype="https://schema.org/Person" id="data-author" itemprop="author">
+  <footer itemscope itemtype="https://schema.org/Person" id="data-author" itemprop="author" role="contentinfo">
     <div class="grid island grid-middle">
       <small itemprop="name" class="unit xs-1-2 m-1-2"> © 2017 Chris Hough.<br><strong itemprop="email" href="mailto:contact@chris-hough,ca">contact@chris-hough.ca</strong></small>
       <div class="top-btn unit xs-1-2 m-1-4 island-1-4 text-right">

@@ -5,14 +5,19 @@ title: Portfolio Welcome Page
 
 <meta name="description" content="Thanks for visiting! View my portfolio, or learn a bit more about me.">
 
-  <main class="">
+<ul class="skip-links">
+  <li><a href="#main">Jump to main content</a></li>
+  <li><a href="#nav">Jump to navigation</a></li>
+</ul>
+
+  <main role="main" id="main">
     <div class="intro gutter">
-      <a class="welcome-btn" href="{{site.baseurl}}/chris-hough-designs">
+      <a itemprop="url" class="welcome-btn" href="{{site.baseurl}}/chris-hough-designs" aria-label="view list of designs">
         <div class=" text-center">
           <span class="yotta">designs</span>
         </div>
       </a>
-      <a class="welcome-btn" href="{{site.baseurl}}/about">
+      <a itemprop="url" class="welcome-btn" href="{{site.baseurl}}/about" aria-label="read about the designer">
         <div class="text-center">
           <span class="yotta">about</span>
         </div>

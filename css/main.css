@@ -13,6 +13,10 @@ body {
   font-weight: 200;
 }
 
+.active {
+  font-weight: 500;
+}
+
 a:focus {
   outline: 3px solid rgb(242, 108, 87);
 }
@@ -300,7 +304,7 @@ header a:hover {
   .error-msg span {
     margin-bottom: 0;
   }
-  
+
 }
 
 @media only screen and (min-width: 60em) {

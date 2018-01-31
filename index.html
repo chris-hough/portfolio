@@ -1,26 +1,56 @@
 ---
 layout: default
-title: Portfolio Welcome Page
+title: View Designs
+navClass1: active
 ---
 
-<meta name="description" content="Thanks for visiting! View my portfolio, or learn a bit more about me.">
+<meta name="description" content="The list of all design case studies featured in my portfolio.">
 
 <ul class="skip-links">
   <li><a href="#main">Jump to main content</a></li>
   <li><a href="#nav">Jump to navigation</a></li>
 </ul>
 
-  <main role="main" id="main">
-    <div class="intro gutter">
-      <a itemprop="url" class="welcome-btn" href="{{site.baseurl}}/chris-hough-designs" aria-label="view list of designs">
-        <div class=" text-center">
-          <span class="yotta">designs</span>
-        </div>
-      </a>
-      <a itemprop="url" class="welcome-btn" href="{{site.baseurl}}/about" aria-label="read about the designer">
-        <div class="text-center">
-          <span class="yotta">about</span>
-        </div>
-      </a>
+  <main role="main" id="main" itemref="data-author" itemscope itemtype="https://schema.org/WebSite" class="img-grid">
+
+    <div class="grid grid-middle wrapper gutter pad-b-2 pad-t-2">
+      <figure class="unit relative dsn-unit-w push-0">
+        <a class="embed embed-2by1 block" href="{{site.baseurl}}/case-study-aries2">
+          <img class="img-flex embed-item" src="{{site.baseurl}}/images/preview-aries.jpg" alt="2by1">
+            <figcaption class="pin-tc w-1 h-1 absolute  island-half mega">Image caption 1</figcaption>
+        </a>
+      </figure>
+      <figure class="unit relative dsn-unit push-0">
+        <a class="embed embed-1by1 block" href="{{site.baseurl}}/case-study-portraits">
+          <img class="img-flex embed-item" src="{{site.baseurl}}/images/preview-portrait.jpg" alt="2by1">
+            <figcaption class="pin-tc w-1 h-1 absolute  island-half mega">Image caption 1</figcaption>
+        </a>
+      </figure>
+      <figure class="unit relative dsn-unit push-0">
+        <a class="embed embed-1by1 block" href="{{site.baseurl}}/case-study-treehouse">
+          <img class="img-flex embed-item" src="{{site.baseurl}}/images/preview-isometric.jpg" alt="2by1">
+            <figcaption class="pin-tc w-1 h-1 absolute  island-half mega">Image caption 1</figcaption>
+        </a>
+      </figure>
+      <figure class="unit relative dsn-unit push-0">
+        <a class="embed embed-1by1 block" href="{{site.baseurl}}/case-study-valley-rally">
+          <img class="img-flex embed-item" src="{{site.baseurl}}/images/preview-valley-rally.jpg" alt="2by1">
+            <figcaption class="pin-tc w-1 h-1 absolute  island-half mega">Image caption 1</figcaption>
+        </a>
+      </figure>
+      <figure class="unit relative dsn-unit push-0">
+        <a class="embed embed-1by1 block" href="{{site.baseurl}}/case-study-vector-painting">
+          <img class="img-flex embed-item" src="{{site.baseurl}}/images/painting-detail.jpg" alt="2by1">
+            <figcaption class="pin-tc w-1 h-1 absolute  island-half mega">Image caption 1</figcaption>
+        </a>
+      </figure>
+      <figure class="unit relative dsn-unit-w push-0">
+        <a class="embed embed-2by1 block" href="{{site.baseurl}}/case-study-cheo-report">
+          <img class="img-flex embed-item" src="{{site.baseurl}}/images/preview-cheo-cover.jpg" alt="2by1">
+            <figcaption class="pin-tc w-1 h-1 absolute  island-half mega">Image caption 1</figcaption>
+        </a>
+      </figure>
     </div>
+
+    <aside itemprop="keywords">Branding, Design, Logo, Illustration</aside>
   </main>

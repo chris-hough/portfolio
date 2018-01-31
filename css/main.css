@@ -135,9 +135,9 @@ a {
   font-weight: 300;
 }
 
-.about span {
+h2 {
+  font-weight: 200;
   color: rgba(242, 108, 87, 1);
-  font-weight: 300;
 }
 
 .top-link {
@@ -248,22 +248,20 @@ h1 {
   text-transform: uppercase;
 }
 
-h2 {
-  font-weight: 300;
-}
-
 .case-study {
   color: #555;
   background-color: #f6f6f6;
   background-image: none;
   padding-top: 0;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .banner-img {
-background-image: url("../images/preview-aries2.jpg");
-background-size: 100%;
-background-position: center;
-padding-top: 25%;
+background-image: url("../images/aries-banner.jpg");
+background-size: cover;
+background-position: top;
+padding-top: 33%;
 background-repeat: no-repeat;
 overflow: hidden;
 }
@@ -285,7 +283,7 @@ overflow: hidden;
   }
 
   .logo {
-    margin-left: 1.66em;
+    margin-left: 1.3rem;
     margin-right: 0;
     max-width: 6rem;
   }

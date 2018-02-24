@@ -79,12 +79,12 @@ a:hover {
   transition: all 300ms;
 }
 
-a figcaption {
+figure span {
   color: rgba(255, 255, 255, 0);
 ;
 }
 
-a figcaption:hover {
+figure span:hover {
   background-color: rgba(242, 108, 87, 0.7);
   color: rgba(255, 255, 255, 1);
   transition: all 300ms;
@@ -92,10 +92,11 @@ a figcaption:hover {
 
 figure span {
   background-position: -1em 0;
-  background-image: linear-gradient(to bottom, rgba(242, 108, 87, 1) 20%, rgba(242, 108, 87, 0.5));
+  background-image: linear-gradient(to bottom, rgba(242, 108, 87, 0.8) 20%, rgba(242, 108, 87, 0.3));
   width: 100%;
   height: 100%;
   opacity: 0;
+  font-size: 1.802rem;
 }
 
 figure span:hover,
